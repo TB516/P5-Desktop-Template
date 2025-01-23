@@ -11,4 +11,5 @@ Due to the nature of this environment, it is recommended to download [this exten
 1. Run your preferred package manager's install script to add packages
 2. Create project folder in the src directory
 3. Create sketch.js file in directory
-4. Start coding!
+4. Add any p5 global methods to the global space with window.func = func
+5. Start coding!
