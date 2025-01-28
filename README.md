@@ -4,7 +4,7 @@ Template repo for p5.js desktop development. Create p5.js art scripts without ne
 
 ## VSCode profile quickstart
 
-If you want to dive right into developing, [here is a vscode profile to copy](https://vscode.dev/profile/github/6431b1d5dbeb3985837424ef0b36d639). It contains tools for p5 development such as spellcheck, a live canvas and shortcut for it, prettier, and more.
+If you want to dive right into developing, [here is a vscode profile to copy](https://vscode.dev/profile/github/4c21d073ea0a3ba27aaa1d00c05857af). It contains tools for p5 development such as spellcheck, a live canvas and shortcut for it, prettier, and more.
 
 ## Project setup
 
