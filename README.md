@@ -14,3 +14,22 @@ If you want to dive right into developing, [here is a vscode profile to copy](ht
 4. Add any p5 global methods to the global space
    - Example: window.setup = setup
 5. Start coding!
+
+## Type checking (Optional)
+
+If you would like type checking in your code, update your jsconfig.json file to look like this:
+```json
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "types": ["@types/p5/global.d.ts", "./types/window.d.ts"]
+  },
+  "include": ["./src/*/*.js"]
+}
+```
+
+Additionally, you will want to set your editor to treat each javascript file as a module which can be done by using the '.mjs' extension instead '.js' (make sure to update references to files accordingly), or add this line to the bottom of files that don't already import/export:
+```js
+export {}
+```
