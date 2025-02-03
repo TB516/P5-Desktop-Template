@@ -29,7 +29,7 @@ If you would like type checking in your code, update your jsconfig.json file to 
 }
 ```
 
-Additionally, you will want to set your editor to treat each javascript file as a module which can be done by using the '.mjs' extension instead '.js' (make sure to update references to files accordingly), or add this line to the bottom of files that don't already import/export:
+Additionally, you will want to set your editor to treat each javascript file as a module which can be done by adding this line to the bottom of files that don't already import/export:
 ```js
 export {}
 ```
