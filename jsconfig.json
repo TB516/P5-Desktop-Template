@@ -2,5 +2,5 @@
   "compilerOptions": {
     "types": ["@types/p5/global.d.ts", "./types/window.d.ts"]
   },
-  "include": ["./src/*/*.js"]
+  "include": ["./src/*/*.js", "./src/*/sketch.mjs"]
 }
