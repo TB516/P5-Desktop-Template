@@ -9,8 +9,8 @@ If you want to dive right into developing, [here is a vscode profile to copy](ht
 ## Project setup
 
 1. Run your preferred package manager's install script to add packages
-2. Create project folder in the src directory
-3. Create sketch.js file in directory
+2. Create a project folder in the src directory
+3. Create a sketch.mjs file in that directory
 4. Add any p5 global methods to the global space
    - Example: window.setup = setup
 5. Start coding!
@@ -25,11 +25,6 @@ If you would like type checking in your code, update your jsconfig.json file to 
     "allowJs": true,
     "types": ["@types/p5/global.d.ts", "./types/window.d.ts"]
   },
-  "include": ["./src/*/*.js"]
+  "include": ["./src/*/*.js", "./src/*/sketch.mjs"]
 }
-```
-
-Additionally, you will want to set your editor to treat each javascript file as a module which can be done by adding this line to the bottom of files that don't already import/export:
-```js
-export {}
 ```
